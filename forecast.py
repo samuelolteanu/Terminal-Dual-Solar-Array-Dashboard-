@@ -18,7 +18,7 @@ HA_TOKEN      = "REDACTAT"
 
 REFRESH       = 10
 FB_DEV        = "/dev/fb0"
-LATITUDE_DEG  = 45.43
+LATITUDE_DEG  = 45.43 #Galati, Romania
 LONGITUDE_DEG = 28.03
 UTC_OFFSET    = 3
 
