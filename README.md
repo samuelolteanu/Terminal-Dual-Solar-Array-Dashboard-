@@ -12,7 +12,7 @@ Deși Home Assistant (HA) oferă o interfață web excelentă, acest script care
 | :---- | :---- | :---- |
 | **Consum Resurse** | Ridicat (necesită motor randare Chromium/Webkit) | Extrem de mic (randare directă de pixeli în RAM) |
 | **Stabilitate** | Se poate bloca, necesită refresh, erori de memorie | Proces Python simplu, extrem de robust |
-| **Latență** | Dependență de rețea și DOM rendering | Afișare instantanee, direct pe hardware-ul video, folosind data in timp real cu energie din HA database history, NU long term statistics.Barele se umplu, literalmente vazand cu ochii daca productia e mare. |
+| **Latență** | Dependență de rețea și DOM rendering | Afișare instantanee, direct pe hardware-ul video, folosind data in timp real cu energie din istoric HA, NU long term statistics. Barele se umplu, literalmente vazand cu ochii daca productia e mare. |
 | **Vizibilitate** | Design generic pentru mouse/touch | Design optimizat pentru at a galance (High Contrast), fara inteventie (laptop cu Proxmox pe perete, cu ecranul vizibilt). |
 
 **Pe scurt:** Acest proiect transformă un terminal nefolosit într-un instrument industrial de monitorizare, fara o pagina web deschisa. Extrem de util pentru utilizatorii HA VM pe Proxmox instalat pe un laptop dedicat.
